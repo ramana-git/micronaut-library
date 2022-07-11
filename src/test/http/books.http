@@ -1,0 +1,30 @@
+get http://localhost:8080/books/search?query=Hello
+
+###
+post http://localhost:8080/books
+content-type: application/json
+
+{
+    "title": "Harry Potter",
+    "year": "2000",
+    "authors": ["dab9d7e9-00c1-4b75-a2a2-4260fe78c872"]    
+}
+
+###
+post http://localhost:8080/books
+content-type: application/json
+
+{
+    "title": "Hamlet",
+    "year": "1700",
+    "authors": ["dab9d7e9-00c1-4b75-a2a2-4260fe78c872"],
+    "location": "e10c1284-03d5-4917-83f8-073e65a9e5af"
+}
+
+###
+get http://localhost:8080/books
+
+
+###
+get http://localhost:8080/books/a8cc2217-de9a-4eea-9d54-e8b7064a0329
+

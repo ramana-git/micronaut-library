@@ -1,0 +1,35 @@
+post http://localhost:8080/authors
+content-type: application/json
+
+{
+    "name": "Ramana",
+    "address": "Plantation, FL"    
+}
+
+###
+post http://localhost:8080/authors
+content-type: application/json
+
+{
+    "name": "Reddy",
+    "address": "Miami, FL"    
+}
+
+###
+get http://localhost:8080/authors
+
+###
+get http://localhost:8080/authors/460cdbb4-0706-4281-ab2f-9082b493cf80
+
+###
+delete http://localhost:8080/authors/4d406958-7d28-4e53-be98-05b40850a621
+
+###
+put http://localhost:8080/authors
+content-type: application/json
+
+{
+  "id": "460cdbb4-0706-4281-ab2f-9082b493cf80",
+  "name": "Ramana",
+  "address": "Miami, FL"
+}

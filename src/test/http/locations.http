@@ -1,0 +1,27 @@
+post http://localhost:8080/locations
+content-type: application/json
+
+{
+    "building": "590 Coconut Palm Ter",
+    "room": "Room# 123",
+    "shelf": "#1",
+    "rack": "top"    
+}
+
+###
+post http://localhost:8080/locations
+content-type: application/json
+
+{
+    "building": "590 Coconut Palm Ter",
+    "room": "Room# 234",
+    "shelf": "#5",
+    "rack": "bottom"    
+}
+
+###
+get http://localhost:8080/locations
+
+
+###
+get http://localhost:8080/locations/460cdbb4-0706-4281-ab2f-9082b493cf80

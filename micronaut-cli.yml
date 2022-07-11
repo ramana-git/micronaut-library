@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: us.venky.mn
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, data, data-jpa, gradle, http-client, jackson-databind, jdbc-hikari, junit, kotlin, kotlin-application, kotlin-build, logback, mariadb, micronaut-build, netty-server, openapi, readme, shade, swagger-ui, testcontainers, yaml]
