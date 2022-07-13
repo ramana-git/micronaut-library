@@ -2,10 +2,10 @@ post http://localhost:8080/locations
 content-type: application/json
 
 {
-    "building": "590 Coconut Palm Ter",
-    "room": "Room# 123",
-    "shelf": "#1",
-    "rack": "top"    
+    "building": "123 Main St",
+    "room": "Room# 45",
+    "shelf": "#6",
+    "rack": "top"
 }
 
 ###
@@ -13,9 +13,9 @@ post http://localhost:8080/locations
 content-type: application/json
 
 {
-    "building": "590 Coconut Palm Ter",
-    "room": "Room# 234",
-    "shelf": "#5",
+    "building": "123 45th Ave",
+    "room": "Room# 678",
+    "shelf": "#9",
     "rack": "bottom"    
 }
 
